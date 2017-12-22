@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HIv-19-QVG">
-                                <rect key="frame" x="10" y="60" width="300" height="96.5"/>
+                                <rect key="frame" x="16" y="80" width="288" height="96.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artwork Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7Z-us-AIY">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="20.5"/>
@@ -28,7 +28,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Can I get a name?" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="KBS-ay-nfM">
-                                        <rect key="frame" x="0.0" y="28.5" width="300" height="30"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="288" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -40,15 +40,17 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="KBS-ay-nfM" secondAttribute="trailing" id="OtJ-zV-rJZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="KBS-ay-nfM" secondAttribute="trailing" id="O3o-E3-xis"/>
+                                    <constraint firstItem="KBS-ay-nfM" firstAttribute="leading" secondItem="HIv-19-QVG" secondAttribute="leading" id="jHQ-LW-8kW"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HIv-19-QVG" secondAttribute="trailing" constant="10" id="AyY-qM-Ekh"/>
-                            <constraint firstItem="HIv-19-QVG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Mv9-OX-21q"/>
-                            <constraint firstItem="HIv-19-QVG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="p4e-dY-1nv"/>
+                            <constraint firstItem="HIv-19-QVG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Gk4-Jy-8vi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HIv-19-QVG" secondAttribute="trailing" constant="16" id="JHo-lO-YiT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HIv-19-QVG" secondAttribute="trailing" constant="16" id="O85-Hs-Fcq"/>
+                            <constraint firstItem="HIv-19-QVG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xOd-a5-K0m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

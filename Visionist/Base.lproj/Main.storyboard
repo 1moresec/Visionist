@@ -33,7 +33,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HE-bw-w3s">
                                         <rect key="frame" x="0.0" y="66.5" width="77" height="30"/>
@@ -66,7 +66,7 @@
                     </view>
                     <connections>
                         <outlet property="ArtworkNameLabel" destination="I7Z-us-AIY" id="MKs-0b-dhI"/>
-                        <outlet property="nameTextField" destination="KBS-ay-nfM" id="d3w-HT-z3e"/>
+                        <outlet property="nameTextField" destination="KBS-ay-nfM" id="Chw-7v-HJ5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

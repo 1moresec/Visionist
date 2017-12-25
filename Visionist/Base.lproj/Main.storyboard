@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HIv-19-QVG">
-                                <rect key="frame" x="16" y="80" width="288" height="96.5"/>
+                                <rect key="frame" x="16" y="80" width="288" height="392.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artwork Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7Z-us-AIY">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="20.5"/>
@@ -41,6 +42,12 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y87-1t-4D9"/>
                                         </connections>
                                     </button>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="288" placeholderIntrinsicHeight="288" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-Oe-YZk">
+                                        <rect key="frame" x="0.0" y="104.5" width="288" height="288"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="xxz-Oe-YZk" secondAttribute="height" multiplier="1:1" id="ybQ-vu-RpK"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="KBS-ay-nfM" secondAttribute="trailing" id="O3o-E3-xis"/>

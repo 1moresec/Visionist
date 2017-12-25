@@ -58,8 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="ArtworkNameLabel" destination="I7Z-us-AIY" id="DFh-lj-cm9"/>
-                        <outlet property="ArtworkNameLable" destination="I7Z-us-AIY" id="ylh-Xe-NlP"/>
+                        <outlet property="ArtworkNameLabel" destination="I7Z-us-AIY" id="MKs-0b-dhI"/>
                         <outlet property="nameTextField" destination="KBS-ay-nfM" id="d3w-HT-z3e"/>
                     </connections>
                 </viewController>

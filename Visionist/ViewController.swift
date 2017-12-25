@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: Properties
-//    @IBOutlet weak var nameTextField: UITextField!
-//    @IBOutlet weak var ArtworkNameLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var ArtworkNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     }
 
     //MARK: Actions
-//    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-//        ArtworkNameLabel.text = "A Piece of This World"
-//    }
+    @IBAction func setDefaultLabelText(_ sender: UIButton) {
+        ArtworkNameLabel.text = "A Piece of This World"
+    }
 }
 
